@@ -44,7 +44,8 @@ namespace CardCount
                         sumOfCards += 10;
                         break;
                     default:
-                        Console.WriteLine("Введена несуществующая карта - значение не будет зачтено");
+                        Console.WriteLine("Введена несуществующая карта - повторите ввод");
+                        i--;
                         break;
 
                 }
